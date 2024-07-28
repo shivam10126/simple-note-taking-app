@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NoteItem from './NoteItem';
 import { useNavigate } from 'react-router-dom';
-import { TextField, Button, IconButton } from '@mui/material';
+import { TextField, Button } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import "../styles.css"
 
