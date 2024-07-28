@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .note-item {
+    border: 5px solid white;
+    background-color: #6F14BC;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-inline: 10px;
+    margin-bottom: 10px;
+    height: 15rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 17px 0px;
+  }
+  .note-title{
+    height: 80%;
+    padding-inline: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 10px;
+    
+  }
+  .note-item h3 {
+    height: 90%;
+    margin: 0;
+  }
+  
+  .timestamp {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .timestamp span {
+    margin-right: 1rem;
+  }
+  
+  .modal-timestamp {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    margin-top: 1rem;
+  }
+  
+  
+  .note-item-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    justify-content: right;
+  }
+  .note-item-buttons Button{
+    color: #6F14BC;
+    background-color: white;
+    border: 2px solid transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-inline:10px;
+    transition: all 0.2s ease-in;
+  }
+  .note-item-buttons Button:hover{
+    background-color: #6F14BC;
+    color: white;
+    border: 2px solid white;
+  }
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+    
+
+  }
+
+.notes-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-inline: auto;
+  padding-inline: 5vw;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.search-add-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-inline: 10px;
+}
+.search-add-container Button {
+  margin-left: 12px;
+}
+.notes-list {
+  margin-bottom: 1rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: #6F14BC !important;
+  color: white;
+  width: 10%;
+  padding: 15px;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: #8f1bee !important;
+}
+
+.css-ahcq22-MuiFormLabel-root-MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.905) !important; 
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  color: white !important;
+}
+.css-ppuc5h-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+
+.css-1l14t3r-MuiInputBase-root-MuiInput-root::after {
+  border-bottom: 2px solid white !important;
+}
+.css-1l14t3r-MuiInputBase-root-MuiInput-root::before {
+  border-bottom: 2px solid white !important;
+}
+.css-1l14t3r-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled, .Mui-error):before {
+  border-bottom: 2px solid white !important;
+}

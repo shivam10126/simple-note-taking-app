@@ -1,0 +1,116 @@
+#addNote {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notebook h2{
+    color: #6F14BC;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  
+  .notebook {
+    width: 80%;
+    max-width: 600px;
+    margin: 2rem auto;
+    min-height: 50vh;
+    padding: 2rem;
+    padding-top: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left:7px solid black;
+  }
+  
+  .notebook:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 1.7%;
+    width: 20px;
+    height: 100%;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 4px,
+      #2a2929 4px,
+      #080808 5px
+    );
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  
+  .notebook-header {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .notebook-content {
+    position: relative;
+    z-index: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notebook form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+  }
+  
+  .notebook input,
+  .notebook textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    background: #f8f8f8;
+    outline: none;
+  }
+  
+  .notebook textarea {
+    resize: vertical; /* Prevent horizontal resizing */
+  }
+  .notebook button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: auto;
+  }
+  
+  .notebook button:hover {
+    background: #0056b3;
+  }
+  
+  .back-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #6c757d;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-start;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .back-button:hover {
+    background: #5a6268;
+  }
